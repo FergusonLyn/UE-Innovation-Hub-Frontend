@@ -1,19 +1,21 @@
 import { useState } from 'react'
 import backgroundImage from './assets/ds.png'; 
 import './App.css'
-import HomeHeader from './components/HomeHeader'
+import DegreeDiv from './components/DegreeDiv';
+import Header from './components/Header';
+import Description from './components/Description';
+import Lookingforwardto from './components/Lookingforwardto';
+import GetMoreInfoDiv from './components/GetMoreInfoDiv';
+import LocationDiv from './components/LocationDiv';
+import MeetDiv from './components/MeetDiv';
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className="w-full flex items-center justify-center text-black  gap-x-80 ">
-        <p className='font-bold text-3xl text-gray-600'>INNOVATION HUB</p>
-        <span className='h-10 w-[200px] bg-red-500 text-white flex items-center justify-center cursor-pointer p-3 m-3 rounded-3xl font-bold'>
-          Get More Info
-        </span>
-      </div>
+     <Header />
 
       {/* header image div */}
       <div className="h-[470px] flex items-center justify-center text-white bg-fixed"
@@ -67,80 +69,21 @@ function App() {
       </div>
 
 
-      {/* your degree in a nut shell div */}
-      <div className="h-[600px] border-2 border-black flex flex-col items-center text-black">
-         <div className='font-medium text-4xl m-7 text-gray-800'>Your degree in a nutshell<span className='text-red-500'>.</span></div>
-         <div className='w-9/12 h-5/6 border-2 border-red grid grid-cols-2 mx-5 mb-4'>
-            <div className='h-full w-[480px] border-2 border-blue'>
+     <DegreeDiv />
+     <GetMoreInfoDiv />
+     <Description />
+     <Lookingforwardto />     
+     <GetMoreInfoDiv />
+     <LocationDiv />
+     <div className='w-full h-[200px] bg-white'>
 
-            </div>
-            <div className='h-full w-[480px] border-2 border-blue'>
+     </div>
+     <MeetDiv />
 
-            </div>            
-         </div>
-      </div>
-
-
-
-      <div className="w-full flex items-center justify-center h-[120px]">
-            <span className="h-16 w-[230px] bg-red-500 text-white flex items-center justify-center cursor-pointer p-3 rounded-3xl font-bold">
-              Get More Info
-            </span>
-      </div>
+     
 
 
-      <div className="h-[520px] flex items-center justify-center text-white"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
-        
-      </div>
-
-
-
-      {/* your degree in a nut shell div */}
-      <div className="h-[600px] border-2 border-black flex flex-col items-center text-black">
-         <div className='font-medium text-4xl m-7 text-gray-800'>Your degree in a nutshell<span className='text-red-500'>.</span></div>
-         <div className='w-9/12 h-5/6 border-2 border-red grid grid-cols-2 mx-5 mb-4'>
-            <div className='h-full w-[480px] border-2 border-blue'>
-
-            </div>
-            <div className='h-full w-[480px] border-2 border-blue'>
-
-            </div>            
-         </div>
-      </div>
-
-
-
-      <div className="w-full flex items-center justify-center h-[120px]">
-            <span className="h-16 w-[230px] bg-red-500 text-white flex items-center justify-center cursor-pointer p-3 rounded-3xl font-bold">
-              Get More Info
-            </span>
-      </div>
-
-
-      <div className="h-[520px] flex items-center justify-center text-white"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
-        
-      </div>
-
-
-      {/* why do your masters div */}
-      <div className="h-[600px] flex flex-col items-center  text-black">
-         <div className='font-medium text-4xl m-7 text-gray-800'>Why choose your Masters<span className='text-red-500'>.</span></div>
-         <div className='w-9/12 h-4/6 border-2 border-red grid grid-cols-3 mx-5'>
-            <div className='h-full w-[330px] border-2 border-blue'>
-
-            </div>
-            <div className='h-full w-[330px] border-2 border-blue'>
-
-            </div>
-            <div className='h-full w-[330px] border-2 border-blue'>
-
-            </div>
-         </div>
-      </div>
+      
 
 
 
