@@ -9,6 +9,8 @@ import GetMoreInfoDiv from './components/GetMoreInfoDiv';
 import LocationDiv from './components/LocationDiv';
 import MeetDiv from './components/MeetDiv';
 import ContactUs from './components/ContactUs';
+import Submit from './components/Submit';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -81,6 +83,8 @@ function App() {
      </div>
      <MeetDiv />
      <ContactUs />
+     <Submit />
+     <Footer />
 
      
 
