@@ -75,7 +75,7 @@ function App() {
      <Lookingforwardto />     
      <GetMoreInfoDiv />
      <LocationDiv />
-     <div className='w-full h-[200px] bg-white'>
+     <div className='w-full h-[120px] bg-white'>
 
      </div>
      <MeetDiv />

@@ -8,7 +8,7 @@ const DegreeDiv = () => {
   return (
     <>
       {/* your degree in a nutshell div */}
-      <div className="h-[630px] flex flex-col items-center text-black bg-red-50">
+      <div className="h-[630px] flex flex-col items-center text-black bg-red-50 mb-[50px]">
         <div className="font-medium text-4xl mt-8 mb-10 text-gray-800">
           Your degree in a nutshell<span className="text-red-500">.</span>
         </div>
