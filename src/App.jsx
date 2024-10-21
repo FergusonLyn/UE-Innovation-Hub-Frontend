@@ -8,6 +8,7 @@ import Lookingforwardto from './components/Lookingforwardto';
 import GetMoreInfoDiv from './components/GetMoreInfoDiv';
 import LocationDiv from './components/LocationDiv';
 import MeetDiv from './components/MeetDiv';
+import ContactUs from './components/ContactUs';
 
 
 function App() {
@@ -79,6 +80,7 @@ function App() {
 
      </div>
      <MeetDiv />
+     <ContactUs />
 
      
 
