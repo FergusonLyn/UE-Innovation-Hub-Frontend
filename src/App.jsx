@@ -21,7 +21,7 @@ function App() {
      <Header />
 
       {/* header image div */}
-      <div className="h-[470px] flex items-center justify-center text-white bg-fixed"
+      <div className="h-[420px] md:h-[470px] flex items-center justify-center text-white bg-fixed"
       style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="text-center flex flex-col items-center"> {/* Use flex-col to align content vertically */}
@@ -29,7 +29,7 @@ function App() {
               MSc Data Science
             </span>
             <br />
-            <span className="mt-4 font-semibold text-xl">
+            <span className="mt-4 leading-5 font-medium md:font-semibold text-sm md:text-xl">
               The structured collection of data with intelligent
               <br /> data management is the basis of all successful analyses.
               <br /> Become an expert in methods such as clustering,
@@ -44,9 +44,9 @@ function App() {
 
 
       {/* why do your masters div */}
-      <div className="h-[440px] flex flex-col items-center  text-black">
-         <div className='font-medium text-4xl m-7 text-gray-800'>Why choose your Masters<span className='text-red-500'>.</span></div>
-         <div className='w-9/12 h-4/6 grid grid-cols-3 mx-5 p-5'>
+      <div className="h-[700px] md:h-[440px] flex flex-col items-center  text-black">
+         <div className='font-medium text-center text-3xl md:text-4xl m-7 text-gray-800'>Why choose your Masters<span className='text-red-500'>.</span></div>
+         <div className='w-4/5 md:w-9/12 h-4/6 grid grid-cols-1 md:grid-cols-3 m-1 p-0 md:mx-5 md:p-5'>
             <div className='h-full w-[330px] text-left p-4 relative'>
               <div className='bg-gray-300 rounded-full h-14 w-14 absolute -top-0 -left-0'></div>
               <span className='font-semibold text-2xl relative z-10'>Fast Track Option</span>
