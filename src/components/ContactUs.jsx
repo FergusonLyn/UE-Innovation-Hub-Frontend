@@ -3,14 +3,14 @@ import React from 'react';
 const ContactUs = () => {
   return (
     <>
-      <div className='h-[1000px] flex flex-col items-center justify-center text-black'>
-        <div className='font-medium text-4xl mb-8 text-gray-700'>
+      <div className='h-[1500px] md:h-[1000px] flex flex-col items-center justify-center text-black'>
+        <div className='font-medium text-2xl md:text-4xl mb-8 text-gray-700'>
           Request more information
         </div>
 
-        <div className="grid grid-rows-4 gap-4 w-4/5 h-[450px]">
+        <div className="grid grid-rows-4 gap-4 w-5/6 md:w-4/5 h-[450px] border-2 mb-10">
           {/* First Row */}
-          <div className="grid grid-cols-1 gap-4 w-full h-[50px] sm:grid-cols-2 ">
+          <div className="grid grid-cols-1 gap-y-6 w-full h-[50px] sm:grid-cols-2 md:gap-4 ">
             {/* First Name */}
             <div className='relative w-full h-[50px] my-3 md:my-0'>
               <label htmlFor="" className='absolute top-[-10px] left-2 text-gray-600 bg-white px-1 text-sm'>
@@ -34,9 +34,9 @@ const ContactUs = () => {
           </div>
 
           {/* Second Row */}
-          <div className="grid grid-cols-1 gap-4 w-full h-[50px] sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 w-full h-[50px] sm:grid-cols-2 ">
             {/* Code + Telephone */}
-            <div className="grid grid-cols-1 gap-4 w-full h-[50px] sm:grid-cols-4 my-3 md:my-0">
+            <div className="grid grid-cols-1 gap-y-6 md:gap-4 w-full h-[50px] sm:grid-cols-4 my-3 md:my-0">
               <div className='relative col-span-1 '>
                 <label htmlFor="" className='absolute top-[-10px] left-2 text-gray-600 bg-white px-1 text-sm'>
                   Code*
@@ -70,7 +70,7 @@ const ContactUs = () => {
           </div>
 
           {/* Third Row */}
-          <div className="grid grid-cols-1 gap-4 w-full h-[50px] sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-y-6 md:gap-4 w-full h-[50px] sm:grid-cols-2">
             {/* Country */}
             <div className='relative w-full h-[50px]'>
               <label htmlFor="" className='absolute top-[-10px] left-2 text-gray-600 bg-white px-1 text-sm'>
@@ -96,7 +96,7 @@ const ContactUs = () => {
           </div>
 
           {/* Fourth Row */}
-          <div className="grid grid-cols-1 gap-4 w-full h-[50px] sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-y-6 md:gap-4 w-full h-[50px] sm:grid-cols-2">
             {/* Intake Year */}
             <div className='relative w-full h-[50px]'>
               <label htmlFor="" className='absolute top-[-10px] left-2 text-gray-600 bg-white px-1 text-sm'>
@@ -121,7 +121,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className='w-4/5 h-[250px]'>
+        <div className='w-full md:w-4/5 h-[250px]'>
           <p className='w-full text-gray-500 text-sm px-4'>
             The University of Europe for Applied Sciences is a part of the Global University Systems group of companies (the GUS Group). 
             The information you provide on this form will be processed in accordance with the University of Europe for Applied Sciences’ privacy policy.
